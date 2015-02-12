@@ -1,0 +1,192 @@
+2014-11-05 13:09:10,342 [8] INFO  spacemanagement - Starting space management execution
+2014-11-05 13:09:10,365 [8] INFO  spacemanagement - Retrieving DHA data
+2014-11-05 13:11:04,197 [1] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:11:04,208 [1] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:11:04,209 [1] ERROR additionalbenefits - additionalbenefits integration failed
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\AdditionalBenefits\Incoming\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   at System.IO.File.ReadAllLines(String path)
+   at IntegrationDataServices.CsvDataConnector.GetCsvFileAsXml(String filePath)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsIntegration.Execute(String[] args)
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2014-11-05 13:11:31,830 [8] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:11:31,839 [8] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:11:31,889 [8] ERROR additionalbenefits - additionalbenefits integration failed
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\AdditionalBenefits\Incoming\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   at System.IO.File.ReadAllLines(String path)
+   at IntegrationDataServices.CsvDataConnector.GetCsvFileAsXml(String filePath)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsIntegration.Execute(String[] args)
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2014-11-05 13:11:35,634 [10] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:11:35,644 [10] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:11:35,662 [10] ERROR additionalbenefits - additionalbenefits integration failed
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\AdditionalBenefits\Incoming\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   at System.IO.File.ReadAllLines(String path)
+   at IntegrationDataServices.CsvDataConnector.GetCsvFileAsXml(String filePath)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsIntegration.Execute(String[] args)
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2014-11-05 13:11:54,762 [10] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:11:54,771 [10] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:13:29,759 [7] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:13:29,769 [7] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:13:29,772 [7] INFO  additionalbenefits - Generating XML File
+2014-11-05 13:13:29,787 [7] INFO  additionalbenefits - Finished benefits integration execution
+2014-11-05 13:19:13,590 [9] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:19:13,600 [9] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:19:13,603 [9] INFO  additionalbenefits - Generating XML File
+2014-11-05 13:19:13,618 [9] INFO  additionalbenefits - Finished benefits integration execution
+2014-11-05 13:19:42,034 [9] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:19:42,044 [9] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:19:42,046 [9] INFO  additionalbenefits - Generating XML File
+2014-11-05 13:19:42,061 [9] INFO  additionalbenefits - Finished benefits integration execution
+2014-11-05 13:20:29,342 [9] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:20:29,352 [9] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:20:29,390 [9] ERROR additionalbenefits - additionalbenefits integration failed
+System.ArgumentException: Non white space characters cannot be added to content.
+   at System.Xml.Linq.XDocument.ValidateString(String s)
+   at System.Xml.Linq.XContainer.AddStringSkipNotify(String s)
+   at System.Xml.Linq.XContainer.AddContentSkipNotify(Object content)
+   at System.Xml.Linq.XContainer.AddContentSkipNotify(Object content)
+   at System.Xml.Linq.XDocument..ctor(Object[] content)
+   at IntegrationDataServices.CsvDataConnector.GetCsvFileAsXml(String filePath)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsIntegration.Execute(String[] args)
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2014-11-05 13:20:53,393 [9] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:20:53,966 [9] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:21:15,269 [9] ERROR additionalbenefits - additionalbenefits integration failed
+System.ArgumentException: Non white space characters cannot be added to content.
+   at System.Xml.Linq.XDocument.ValidateString(String s)
+   at System.Xml.Linq.XContainer.AddStringSkipNotify(String s)
+   at System.Xml.Linq.XContainer.AddContentSkipNotify(Object content)
+   at System.Xml.Linq.XContainer.AddContentSkipNotify(Object content)
+   at System.Xml.Linq.XDocument..ctor(Object[] content)
+   at IntegrationDataServices.CsvDataConnector.GetCsvFileAsXml(String filePath)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsIntegration.Execute(String[] args)
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2014-11-05 13:21:21,422 [10] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:21:24,048 [10] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:21:40,161 [10] ERROR additionalbenefits - additionalbenefits integration failed
+System.ArgumentException: Non white space characters cannot be added to content.
+   at System.Xml.Linq.XDocument.ValidateString(String s)
+   at System.Xml.Linq.XContainer.AddStringSkipNotify(String s)
+   at System.Xml.Linq.XContainer.AddContentSkipNotify(Object content)
+   at System.Xml.Linq.XContainer.AddContentSkipNotify(Object content)
+   at System.Xml.Linq.XDocument..ctor(Object[] content)
+   at IntegrationDataServices.CsvDataConnector.GetCsvFileAsXml(String filePath)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsIntegration.Execute(String[] args)
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2014-11-05 13:21:57,771 [10] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:21:58,669 [10] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:25:27,261 [8] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:25:27,660 [8] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:26:11,035 [9] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:26:11,542 [9] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:27:09,813 [9] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:27:09,823 [9] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:27:09,835 [9] ERROR additionalbenefits - additionalbenefits integration failed
+System.ArgumentException: Non white space characters cannot be added to content.
+   at System.Xml.Linq.XDocument.ValidateString(String s)
+   at System.Xml.Linq.XContainer.AddStringSkipNotify(String s)
+   at System.Xml.Linq.XContainer.AddContentSkipNotify(Object content)
+   at System.Xml.Linq.XContainer.AddContentSkipNotify(Object content)
+   at System.Xml.Linq.XDocument..ctor(Object[] content)
+   at IntegrationDataServices.CsvDataConnector.GetCsvFileAsXml(String filePath)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsIntegration.Execute(String[] args)
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2014-11-05 13:27:13,734 [10] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:27:14,321 [10] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:27:56,137 [9] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:27:56,635 [9] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:28:15,884 [9] INFO  additionalbenefits - Generating XML File
+2014-11-05 13:28:28,436 [9] INFO  additionalbenefits - Finished benefits integration execution
+2014-11-05 13:29:34,364 [8] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:29:34,373 [8] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:29:35,440 [8] INFO  additionalbenefits - Generating XML File
+2014-11-05 13:29:35,444 [8] INFO  additionalbenefits - Finished benefits integration execution
+2014-11-05 13:33:19,081 [9] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:33:19,091 [9] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:33:20,175 [9] INFO  additionalbenefits - Generating XML File
+2014-11-05 13:33:20,178 [9] INFO  additionalbenefits - Finished benefits integration execution
+2014-11-05 13:35:18,729 [9] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:35:18,740 [9] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:35:19,808 [9] INFO  additionalbenefits - Generating XML File
+2014-11-05 13:35:19,812 [9] INFO  additionalbenefits - Finished benefits integration execution
+2014-11-05 13:37:20,176 [9] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 13:37:20,186 [9] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 13:38:11,774 [9] INFO  additionalbenefits - Generating XML File
+2014-11-05 13:38:11,778 [9] INFO  additionalbenefits - Finished benefits integration execution
+2014-11-05 14:09:42,894 [9] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 14:09:42,903 [9] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 14:09:42,920 [9] ERROR additionalbenefits - additionalbenefits integration failed
+System.IO.IOException: The process cannot access the file 'C:\AdditionalBenefits\Incoming\CsvInputFile.csv' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   at System.IO.File.ReadAllLines(String path)
+   at IntegrationDataServices.CsvDataConnector.GetCsvFileAsXml(String filePath)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsIntegration.Execute(String[] args)
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2014-11-05 14:10:25,770 [9] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 14:10:25,780 [9] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 14:10:27,986 [9] ERROR additionalbenefits - additionalbenefits integration failed
+System.IO.IOException: The process cannot access the file 'C:\AdditionalBenefits\Incoming\CsvInputFile.csv' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   at System.IO.File.ReadAllLines(String path)
+   at IntegrationDataServices.CsvDataConnector.GetCsvFileAsXml(String filePath)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsIntegration.Execute(String[] args)
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2014-11-05 14:10:46,904 [10] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 14:10:47,613 [10] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 14:10:59,245 [10] ERROR additionalbenefits - additionalbenefits integration failed
+System.IO.IOException: The process cannot access the file 'C:\AdditionalBenefits\Incoming\CsvInputFile.csv' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   at System.IO.File.ReadAllLines(String path)
+   at IntegrationDataServices.CsvDataConnector.GetCsvFileAsXml(String filePath)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsIntegration.Execute(String[] args)
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2014-11-05 14:11:03,272 [10] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 14:11:03,282 [10] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 14:11:04,053 [10] INFO  additionalbenefits - Generating XML File
+2014-11-05 14:11:04,056 [10] INFO  additionalbenefits - Finished benefits integration execution
+2014-11-05 14:15:05,033 [8] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 14:15:05,043 [8] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 14:15:05,909 [8] INFO  additionalbenefits - Generating XML File
+2014-11-05 14:15:05,912 [8] INFO  additionalbenefits - Finished benefits integration execution
+2014-11-05 16:38:56,744 [9] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 16:38:57,469 [9] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 16:39:01,823 [9] INFO  additionalbenefits - Getting EmployeeIds from Workday
+2014-11-05 16:40:09,636 [10] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 16:40:10,119 [10] INFO  additionalbenefits - Retrieving data from file
+2014-11-05 16:40:13,071 [10] INFO  additionalbenefits - Getting EmployeeIds from Workday
+2014-11-05 16:40:35,564 [10] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-05 16:40:36,058 [10] INFO  additionalbenefits - Retrieving data from file

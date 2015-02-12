@@ -1,0 +1,8 @@
+C:\2012Source\S-P3\SpaceManagement\Main\Source\Core\bin\prod\Core.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\Core\bin\prod\Core.pdb
+C:\2012Source\S-P3\SpaceManagement\Main\Source\Core\bin\prod\Autofac.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\Core\bin\prod\log4net.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\Core\bin\prod\Autofac.xml
+C:\2012Source\S-P3\SpaceManagement\Main\Source\Core\bin\prod\log4net.xml
+C:\2012Source\S-P3\SpaceManagement\Main\Source\Core\obj\prod\Core.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\Core\obj\prod\Core.pdb

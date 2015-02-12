@@ -1,0 +1,15 @@
+C:\Users\adambo\Documents\GitHub\IntegrationRunner2\CsvToXmlConverter\bin\Debug\CsvToXmlConverter.dll
+C:\Users\adambo\Documents\GitHub\IntegrationRunner2\CsvToXmlConverter\bin\Debug\CsvToXmlConverter.pdb
+C:\Users\adambo\Documents\GitHub\IntegrationRunner2\CsvToXmlConverter\bin\Debug\Core.dll
+C:\Users\adambo\Documents\GitHub\IntegrationRunner2\CsvToXmlConverter\bin\Debug\IntegrationDataServices.dll
+C:\Users\adambo\Documents\GitHub\IntegrationRunner2\CsvToXmlConverter\bin\Debug\IntegrationServices.dll
+C:\Users\adambo\Documents\GitHub\IntegrationRunner2\CsvToXmlConverter\bin\Debug\log4net.dll
+C:\Users\adambo\Documents\GitHub\IntegrationRunner2\CsvToXmlConverter\bin\Debug\Autofac.dll
+C:\Users\adambo\Documents\GitHub\IntegrationRunner2\CsvToXmlConverter\bin\Debug\Core.pdb
+C:\Users\adambo\Documents\GitHub\IntegrationRunner2\CsvToXmlConverter\bin\Debug\IntegrationDataServices.pdb
+C:\Users\adambo\Documents\GitHub\IntegrationRunner2\CsvToXmlConverter\bin\Debug\IntegrationServices.pdb
+C:\Users\adambo\Documents\GitHub\IntegrationRunner2\CsvToXmlConverter\bin\Debug\log4net.xml
+C:\Users\adambo\Documents\GitHub\IntegrationRunner2\CsvToXmlConverter\bin\Debug\Autofac.xml
+C:\Users\adambo\Documents\GitHub\IntegrationRunner2\CsvToXmlConverter\obj\Debug\CsvToXmlConverter.csprojResolveAssemblyReference.cache
+C:\Users\adambo\Documents\GitHub\IntegrationRunner2\CsvToXmlConverter\obj\Debug\CsvToXmlConverter.dll
+C:\Users\adambo\Documents\GitHub\IntegrationRunner2\CsvToXmlConverter\obj\Debug\CsvToXmlConverter.pdb

@@ -1,0 +1,5 @@
+2014-03-17 11:45:48,559 [7] INFO  spacemanagement - Starting space management execution
+2014-03-17 11:45:48,580 [7] INFO  spacemanagement - Retrieving DHA data
+2014-03-17 11:46:10,607 [7] INFO  spacemanagement - Generating employee file
+2014-03-17 11:46:11,897 [7] INFO  spacemanagement - Generating hierarchy file.
+2014-03-17 11:46:12,093 [7] INFO  spacemanagement - Finished space management execution

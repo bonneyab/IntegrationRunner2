@@ -1,0 +1,68 @@
+2014-11-06 12:47:59,559 [1] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-06 12:47:59,569 [1] INFO  additionalbenefits - Retrieving data from file
+2014-11-06 12:47:59,570 [1] ERROR additionalbenefits - AdditionalBenefits integration failed
+System.IO.IOException: The process cannot access the file 'C:\AdditionalBenefits\Incoming\CsvInputFile.csv' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   at System.IO.File.ReadAllLines(String path)
+   at IntegrationDataServices.CsvDataConnector.GetCsvFileAsXml(String filePath)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsIntegration.Execute(String[] args)
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2014-11-06 12:48:14,558 [1] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-06 12:48:14,568 [1] INFO  additionalbenefits - Retrieving data from file
+2014-11-06 12:48:14,572 [1] INFO  additionalbenefits - Generating XML File
+2014-11-06 12:48:14,575 [1] INFO  additionalbenefits - Finished benefits integration execution
+2014-11-06 13:45:27,598 [1] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-06 13:45:27,608 [1] INFO  additionalbenefits - Retrieving data from file
+2014-11-06 13:45:27,612 [1] INFO  additionalbenefits - Generating XML File
+2014-11-06 13:45:27,615 [1] INFO  additionalbenefits - Finished benefits integration execution
+2014-11-06 13:45:41,883 [1] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-06 13:45:41,894 [1] INFO  additionalbenefits - Retrieving data from file
+2014-11-06 13:45:41,896 [1] INFO  additionalbenefits - Getting EmployeeIds from Workday
+2014-11-06 13:45:55,484 [1] INFO  additionalbenefits - Finished getting EmployeeIds from Workday
+2014-11-06 13:45:55,495 [1] ERROR additionalbenefits - AdditionalBenefits integration failed
+System.Xml.XmlException: Name cannot begin with the '0' character, hexadecimal value 0x30.
+   at System.Xml.XmlConvert.VerifyNCName(String name, ExceptionType exceptionType)
+   at System.Xml.Linq.XName..ctor(XNamespace ns, String localName)
+   at System.Xml.Linq.XNamespace.GetName(String localName)
+   at System.Xml.Linq.XName.Get(String expandedName)
+   at System.Xml.Linq.XName.op_Implicit(String expandedName)
+   at IntegrationDataServices.CsvDataConnector.<>c__DisplayClass8.<>c__DisplayClassa.<GetCsvFileAsXml>b__6(String t, Int32 i)
+   at System.Linq.Enumerable.<SelectIterator>d__7`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at IntegrationDataServices.CsvDataConnector.<>c__DisplayClass8.<GetCsvFileAsXml>b__5(<>f__AnonymousType0`2 <>h__TransparentIdentifier2)
+   at System.Linq.Enumerable.<>c__DisplayClass12`3.<CombineSelectors>b__11(TSource x)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Xml.Linq.XContainer.AddContentSkipNotify(Object content)
+   at System.Xml.Linq.XElement..ctor(XName name, Object content)
+   at IntegrationDataServices.CsvDataConnector.GetCsvFileAsXml(List`1 source)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsValidator.GetValidatedFileFromFile(String path, Boolean checkBackdating)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsIntegration.Execute(String[] args)
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2014-11-06 13:58:55,337 [1] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-06 13:58:55,348 [1] INFO  additionalbenefits - Retrieving data from file
+2014-11-06 13:58:55,350 [1] INFO  additionalbenefits - Getting EmployeeIds from Workday
+2014-11-06 13:59:08,466 [1] INFO  additionalbenefits - Finished getting EmployeeIds from Workday
+2014-11-06 13:59:08,474 [1] INFO  additionalbenefits - Generating XML File
+2014-11-06 13:59:08,477 [1] INFO  additionalbenefits - Finished benefits integration execution
+2014-11-06 14:17:35,490 [1] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-06 14:17:35,501 [1] INFO  additionalbenefits - Retrieving data from file
+2014-11-06 14:17:35,504 [1] INFO  additionalbenefits - Getting EmployeeIds from Workday
+2014-11-06 14:17:54,359 [1] INFO  additionalbenefits - Finished getting EmployeeIds from Workday
+2014-11-06 14:17:54,366 [1] INFO  additionalbenefits - Total items in file including header: 6
+2014-11-06 14:17:54,368 [1] INFO  additionalbenefits - Total items in file including header after filtering out inactive workers: 5
+2014-11-06 14:17:54,375 [1] INFO  additionalbenefits - Generating XML File
+2014-11-06 14:17:54,378 [1] INFO  additionalbenefits - Finished benefits integration execution
+2014-11-06 14:54:18,683 [1] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-06 14:54:18,695 [1] INFO  additionalbenefits - Retrieving data from file
+2014-11-06 14:54:18,697 [1] INFO  additionalbenefits - Getting EmployeeIds from Workday
+2014-11-06 14:54:31,801 [1] INFO  additionalbenefits - Finished getting EmployeeIds from Workday
+2014-11-06 14:54:31,804 [1] INFO  additionalbenefits - Total items in file including header: 6
+2014-11-06 14:54:31,806 [1] INFO  additionalbenefits - Total items in file including header after filtering out inactive workers: 5
+2014-11-06 14:54:31,811 [1] INFO  additionalbenefits - Generating XML File
+2014-11-06 14:54:31,815 [1] INFO  additionalbenefits - Finished benefits integration execution

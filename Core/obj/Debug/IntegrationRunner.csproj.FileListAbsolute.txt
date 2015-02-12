@@ -1,0 +1,3 @@
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\bin\Debug\IntegrationRunner.exe.config
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\obj\Debug\IntegrationRunner.exe
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\obj\Debug\IntegrationRunner.pdb

@@ -1,0 +1,12 @@
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationDataServices\bin\Release\IntegrationDataServices.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationDataServices\bin\Release\IntegrationDataServices.pdb
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationDataServices\bin\Release\Core.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationDataServices\bin\Release\Microsoft.AnalysisServices.AdomdClient.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationDataServices\bin\Release\log4net.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationDataServices\bin\Release\Autofac.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationDataServices\bin\Release\Core.pdb
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationDataServices\bin\Release\log4net.xml
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationDataServices\bin\Release\Autofac.xml
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationDataServices\obj\Release\DataConnectors.csprojResolveAssemblyReference.cache
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationDataServices\obj\Release\IntegrationDataServices.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationDataServices\obj\Release\IntegrationDataServices.pdb

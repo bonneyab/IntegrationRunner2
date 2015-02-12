@@ -1,0 +1,11 @@
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationServices\bin\Release\IntegrationServices.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationServices\bin\Release\IntegrationServices.pdb
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationServices\bin\Release\Core.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationServices\bin\Release\log4net.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationServices\bin\Release\Autofac.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationServices\bin\Release\Core.pdb
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationServices\bin\Release\log4net.xml
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationServices\bin\Release\Autofac.xml
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationServices\obj\Release\IntegrationServices.csprojResolveAssemblyReference.cache
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationServices\obj\Release\IntegrationServices.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationServices\obj\Release\IntegrationServices.pdb

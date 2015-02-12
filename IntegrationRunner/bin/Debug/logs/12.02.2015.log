@@ -1,0 +1,16 @@
+2015-02-12 11:43:39,038 [10] INFO  csvtoxmlconverter - Starting Csv to Xml execution
+2015-02-12 11:43:47,278 [10] INFO  csvtoxmlconverter - Retrieving data from file C:\Users\adambo\Desktop\Misc\CsvToXmlConverter\Incoming\CsvInputFile.csv
+2015-02-12 11:43:59,269 [10] ERROR csvtoxmlconverter - csvtoxmlconverter integration failed
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\adambo\Desktop\Misc\CsvToXmlConverter\Incoming\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   at System.IO.File.ReadAllLines(String path)
+   at IntegrationDataServices.CsvDataConnector.GetCsvFileAsXml(String filePath) in c:\Users\adambo\Documents\GitHub\IntegrationRunner2\IntegrationDataServices\CsvDataConnector.cs:line 14
+   at CsvToXmlConverter.CsvToXmlConverter.Execute(String[] args) in c:\Users\adambo\Documents\GitHub\IntegrationRunner2\CsvToXmlConverter\CsvToXmlConverter.cs:line 50
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\Users\adambo\Documents\GitHub\IntegrationRunner2\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-02-12 11:44:58,007 [9] INFO  csvtoxmlconverter - Starting Csv to Xml execution
+2015-02-12 11:45:02,857 [9] INFO  csvtoxmlconverter - Retrieving data from file C:\Users\adambo\Desktop\Misc\CsvToXmlConverter\Incoming\CsvInputFile.csv

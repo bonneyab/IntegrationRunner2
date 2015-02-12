@@ -1,0 +1,14 @@
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\bin\dev\IntegrationRunner.exe.config
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\bin\dev\IntegrationRunner.exe
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\bin\dev\Autofac.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\bin\dev\Core.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\bin\dev\IntegrationServices.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\bin\dev\SpaceManagementIntegration.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\bin\dev\log4net.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\bin\dev\IntegrationDataServices.dll
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\bin\dev\Autofac.xml
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\bin\dev\log4net.xml
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\bin\dev\IntegrationDataServices.pdb
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\obj\dev\IntegrationRunner.csprojResolveAssemblyReference.cache
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\obj\dev\IntegrationRunner.exe
+C:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\bin\dev\Microsoft.AnalysisServices.AdomdClient.dll

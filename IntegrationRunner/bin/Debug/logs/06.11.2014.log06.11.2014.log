@@ -1,0 +1,105 @@
+2014-11-06 12:51:12,328 [9] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-06 12:51:12,368 [9] INFO  additionalbenefits - Retrieving data from file
+2014-11-06 12:51:12,369 [9] INFO  additionalbenefits - Getting EmployeeIds from Workday
+2014-11-06 12:51:27,059 [9] ERROR additionalbenefits - additionalbenefits integration failed
+System.ServiceModel.FaultException: java.lang.IllegalArgumentException: Customer id was not specified
+
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at AdditionalBenefitsIntegration.ActiveEmployeeIds.ReportPort.Execute_Report(Execute_ReportInput request)
+   at AdditionalBenefitsIntegration.ActiveEmployeeIds.ReportPortClient.AdditionalBenefitsIntegration.ActiveEmployeeIds.ReportPort.Execute_Report(Execute_ReportInput request)
+   at AdditionalBenefitsIntegration.ActiveEmployeeIds.ReportPortClient.Execute_Report(Execute_ReportType Execute_Report1)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsValidator.RemoveWorkersNotInWorkday(String path)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsValidator.GetValidatedFileFromFile(String path, Boolean checkBackdating)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsIntegration.Execute(String[] args)
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2014-11-06 12:51:33,166 [10] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-06 12:51:33,879 [10] INFO  additionalbenefits - Retrieving data from file
+2014-11-06 12:51:44,104 [10] INFO  additionalbenefits - Getting EmployeeIds from Workday
+2014-11-06 13:36:16,245 [9] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-06 13:36:18,146 [9] INFO  additionalbenefits - Retrieving data from file
+2014-11-06 13:36:21,786 [9] INFO  additionalbenefits - Getting EmployeeIds from Workday
+2014-11-06 13:36:40,681 [9] INFO  additionalbenefits - Finished getting EmployeeIds from Workday
+2014-11-06 13:37:00,146 [9] INFO  additionalbenefits - Getting EmployeeIds from Workday
+2014-11-06 13:37:06,158 [9] INFO  additionalbenefits - Finished getting EmployeeIds from Workday
+2014-11-06 13:38:04,868 [10] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-06 13:38:04,879 [10] INFO  additionalbenefits - Retrieving data from file
+2014-11-06 13:38:04,881 [10] INFO  additionalbenefits - Getting EmployeeIds from Workday
+2014-11-06 13:38:18,833 [10] INFO  additionalbenefits - Finished getting EmployeeIds from Workday
+2014-11-06 13:38:34,728 [10] ERROR additionalbenefits - additionalbenefits integration failed
+System.Xml.XmlException: Name cannot begin with the '0' character, hexadecimal value 0x30.
+   at System.Xml.XmlConvert.VerifyNCName(String name, ExceptionType exceptionType)
+   at System.Xml.Linq.XName..ctor(XNamespace ns, String localName)
+   at System.Xml.Linq.XNamespace.GetName(String localName)
+   at System.Xml.Linq.XName.Get(String expandedName)
+   at System.Xml.Linq.XName.op_Implicit(String expandedName)
+   at IntegrationDataServices.CsvDataConnector.<>c__DisplayClass8.<>c__DisplayClassa.<GetCsvFileAsXml>b__6(String t, Int32 i)
+   at System.Linq.Enumerable.<SelectIterator>d__7`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at IntegrationDataServices.CsvDataConnector.<>c__DisplayClass8.<GetCsvFileAsXml>b__5(<>f__AnonymousType0`2 <>h__TransparentIdentifier2)
+   at System.Linq.Enumerable.<>c__DisplayClass12`3.<CombineSelectors>b__11(TSource x)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Xml.Linq.XContainer.AddContentSkipNotify(Object content)
+   at System.Xml.Linq.XElement..ctor(XName name, Object content)
+   at IntegrationDataServices.CsvDataConnector.GetCsvFileAsXml(List`1 source)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsValidator.GetValidatedFileFromFile(String path, Boolean checkBackdating)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsIntegration.Execute(String[] args)
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2014-11-06 13:39:24,823 [10] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-06 13:39:25,496 [10] INFO  additionalbenefits - Retrieving data from file
+2014-11-06 13:39:30,951 [10] INFO  additionalbenefits - Getting EmployeeIds from Workday
+2014-11-06 13:39:59,715 [10] INFO  additionalbenefits - Finished getting EmployeeIds from Workday
+2014-11-06 13:41:27,406 [9] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-06 13:41:27,869 [9] INFO  additionalbenefits - Retrieving data from file
+2014-11-06 13:41:36,278 [9] INFO  additionalbenefits - Getting EmployeeIds from Workday
+2014-11-06 13:42:56,483 [9] INFO  additionalbenefits - Finished getting EmployeeIds from Workday
+2014-11-06 13:44:14,809 [9] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-06 13:44:14,820 [9] INFO  additionalbenefits - Retrieving data from file
+2014-11-06 13:44:14,822 [9] INFO  additionalbenefits - Getting EmployeeIds from Workday
+2014-11-06 13:44:54,240 [1] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-06 13:44:54,252 [1] INFO  additionalbenefits - Retrieving data from file
+2014-11-06 13:44:54,265 [1] INFO  additionalbenefits - Getting EmployeeIds from Workday
+2014-11-06 13:45:07,847 [1] INFO  additionalbenefits - Finished getting EmployeeIds from Workday
+2014-11-06 13:45:11,139 [1] ERROR additionalbenefits - additionalbenefits integration failed
+System.Xml.XmlException: Name cannot begin with the '0' character, hexadecimal value 0x30.
+   at System.Xml.XmlConvert.VerifyNCName(String name, ExceptionType exceptionType)
+   at System.Xml.Linq.XName..ctor(XNamespace ns, String localName)
+   at System.Xml.Linq.XNamespace.GetName(String localName)
+   at System.Xml.Linq.XName.Get(String expandedName)
+   at System.Xml.Linq.XName.op_Implicit(String expandedName)
+   at IntegrationDataServices.CsvDataConnector.<>c__DisplayClass8.<>c__DisplayClassa.<GetCsvFileAsXml>b__6(String t, Int32 i)
+   at System.Linq.Enumerable.<SelectIterator>d__7`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at IntegrationDataServices.CsvDataConnector.<>c__DisplayClass8.<GetCsvFileAsXml>b__5(<>f__AnonymousType0`2 <>h__TransparentIdentifier2)
+   at System.Linq.Enumerable.<>c__DisplayClass12`3.<CombineSelectors>b__11(TSource x)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Xml.Linq.XContainer.AddContentSkipNotify(Object content)
+   at System.Xml.Linq.XElement..ctor(XName name, Object content)
+   at IntegrationDataServices.CsvDataConnector.GetCsvFileAsXml(List`1 source)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsValidator.GetValidatedFileFromFile(String path, Boolean checkBackdating)
+   at AdditionalBenefitsIntegration.AdditionalBenefitsIntegration.Execute(String[] args)
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\SpaceManagement\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2014-11-06 13:46:23,342 [1] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-06 13:46:23,354 [1] INFO  additionalbenefits - Retrieving data from file
+2014-11-06 13:46:23,355 [1] INFO  additionalbenefits - Getting EmployeeIds from Workday
+2014-11-06 13:46:36,547 [1] INFO  additionalbenefits - Finished getting EmployeeIds from Workday
+2014-11-06 13:49:16,409 [1] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-06 13:49:16,421 [1] INFO  additionalbenefits - Retrieving data from file
+2014-11-06 13:49:16,422 [1] INFO  additionalbenefits - Getting EmployeeIds from Workday
+2014-11-06 13:49:29,705 [1] INFO  additionalbenefits - Finished getting EmployeeIds from Workday
+2014-11-06 13:54:56,025 [1] INFO  additionalbenefits - Starting benefits integration execution
+2014-11-06 13:54:56,037 [1] INFO  additionalbenefits - Retrieving data from file
+2014-11-06 13:54:56,038 [1] INFO  additionalbenefits - Getting EmployeeIds from Workday
+2014-11-06 13:55:14,762 [1] INFO  additionalbenefits - Finished getting EmployeeIds from Workday
+2014-11-06 13:56:24,841 [1] INFO  additionalbenefits - Generating XML File
+2014-11-06 13:56:24,844 [1] INFO  additionalbenefits - Finished benefits integration execution
